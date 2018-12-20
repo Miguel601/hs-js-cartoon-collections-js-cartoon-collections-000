@@ -10,7 +10,11 @@ function dwarfRollCall(dwarves) {
   
   dwarfRollCall(dwarves)
   
+<<<<<<< HEAD
 function summonCaptainPlanet(planeteersCalls) {
+=======
+  function summonCaptainPlanet(planeteersCalls) {
+>>>>>>> 2fe25a9b55172a7cbc58e3e061f07ff40a186b3d
       return planeteersCalls.map(function(elements){
           return elements.toUpperCase() + "!";
       });
@@ -18,7 +22,11 @@ function summonCaptainPlanet(planeteersCalls) {
   
   summonCaptainPlanet(["earth", "wind", "fire", "water", "heart"]);
   
+<<<<<<< HEAD
 function longPlaneteerCalls(words) {
+=======
+  function longPlaneteerCalls(words) {
+>>>>>>> 2fe25a9b55172a7cbc58e3e061f07ff40a186b3d
     let b = false;
     for (let index = 0; index < foods.length; index++) {
       if (b.length > 4) {
@@ -28,7 +36,11 @@ function longPlaneteerCalls(words) {
     return b
   }
   
+<<<<<<< HEAD
 function findTheCheese (foods) {
+=======
+  function findTheCheese (foods) {
+>>>>>>> 2fe25a9b55172a7cbc58e3e061f07ff40a186b3d
       for (let index = 0; index < foods.length; index++) {
           if (foods[index] === "cheddar"){
               return "cheddar"
