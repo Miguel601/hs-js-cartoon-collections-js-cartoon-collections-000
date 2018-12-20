@@ -1,3 +1,4 @@
+//return numbered dwarves
 function dwarfRollCall(dwarves) {
     let snow = "";
     for (let index = 0; index < dwarves.length; index++) {
@@ -10,11 +11,10 @@ function dwarfRollCall(dwarves) {
   
   dwarfRollCall(dwarves)
   
-<<<<<<< HEAD
+
+
+//return an array with uppercase and exclamation @ end
 function summonCaptainPlanet(planeteersCalls) {
-=======
-  function summonCaptainPlanet(planeteersCalls) {
->>>>>>> 2fe25a9b55172a7cbc58e3e061f07ff40a186b3d
       return planeteersCalls.map(function(elements){
           return elements.toUpperCase() + "!";
       });
@@ -22,13 +22,11 @@ function summonCaptainPlanet(planeteersCalls) {
   
   summonCaptainPlanet(["earth", "wind", "fire", "water", "heart"]);
   
-<<<<<<< HEAD
+
+//let us know wether any of the calls are longer than four characters
 function longPlaneteerCalls(words) {
-=======
-  function longPlaneteerCalls(words) {
->>>>>>> 2fe25a9b55172a7cbc58e3e061f07ff40a186b3d
     let b = false;
-    for (let index = 0; index < foods.length; index++) {
+    for (let words = 0; words < words.length; words++) {
       if (b.length > 4) {
         return true
       }
@@ -36,11 +34,8 @@ function longPlaneteerCalls(words) {
     return b
   }
   
-<<<<<<< HEAD
+  //accept an array of strings and return the first cheese
 function findTheCheese (foods) {
-=======
-  function findTheCheese (foods) {
->>>>>>> 2fe25a9b55172a7cbc58e3e061f07ff40a186b3d
       for (let index = 0; index < foods.length; index++) {
           if (foods[index] === "cheddar"){
               return "cheddar"
@@ -50,5 +45,9 @@ function findTheCheese (foods) {
               return "camembert"
           }
       }
-      return null;
+      return 'no cheese!';
   }
+
+  foods = ["burger", "gouda", "Ham", "poutine"]
+
+findTheCheese(foods)
